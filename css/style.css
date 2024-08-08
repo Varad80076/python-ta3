@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin: 30px;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.element{
+    display: flex;
+    height: 27vh;
+    width: 500px;
+    background-color: azure;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.element label{
+    font-size: 20px;
+
+}
+.file{
+    width: 400px;
+    height: 30px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #d0d0d7;
+    
+}
+.input-box{
+    width: 112px;
+    height: 33px;
+    outline: none;
+    margin-left: -293px;
+    margin-bottom: 30px;
+}
+.choose_file{
+    width: 70px;
+    height: 30px;
+    outline: none;
+
+}
+.submitbtn{
+    margin: 30px;
+    width: 60px;
+    height: 30px;
+    border-radius: 8px;
+
+}
